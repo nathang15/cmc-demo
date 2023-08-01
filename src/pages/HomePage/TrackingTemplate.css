@@ -1,0 +1,13 @@
+/* Styles for the profile container */
+.container {
+    border: 2px solid black; /* Add a 2px black border */
+    width: 100%; /* Set the width to 80% of the parent container */
+  }
+  
+  .profile-name {
+    font-weight: semibold;
+    color: rgb(0, 0, 0);
+    text-decoration: underline 2px;
+    text-underline-position: under;
+  }
+  

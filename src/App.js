@@ -2,11 +2,12 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-
+import TrackingPage from './pages/HomePage/TrackingPage'
 function App() {
   return (
    <>
     <Header/>
+    <TrackingPage/>
    </>
   );
 }

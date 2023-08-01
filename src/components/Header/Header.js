@@ -11,7 +11,7 @@ function Header() {
         <img
             src={logo} // Adjust the image path as needed
             alt="Logo"
-            style={{ width: '90px', height: '50px' }}
+            style={{ width: '85px', height: '50px' }}
           />
           <a className="logo-name" href="/">linh.hnt</a>
           </div>
