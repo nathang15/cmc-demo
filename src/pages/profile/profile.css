@@ -1,0 +1,55 @@
+/* ProfilePage.css */
+
+/* Styles for the profile container */
+.profile-container {
+    margin: 16vh auto; /* Center the container */
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex; /* Display children in a row (horizontal layout) */
+    justify-content: space-between; /* Space the columns evenly */
+    max-width: 1200px; /* Set a maximum width for the container */
+  }
+  
+  /* Styles for the left column */
+  .left-column {
+    padding-top: 40px;
+    padding-right: 15px;
+    padding-bottom: 80px; 
+    border-right: 2px solid rgb(90, 90, 90); /* Add vertical line to the right of the left column */
+  }
+  
+  /* Styles for the right column */
+  .right-column {
+    flex: 3; /* Allow the column to grow and occupy available space */
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 400px;
+    padding-bottom: 80px;
+  }
+  
+  .name {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+  }
+
+  .name-2 {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+  }
+
+  .profile-name {
+    font-weight: semibold;
+    color: rgb(90, 90, 90);
+    text-decoration: underline 2px;
+    text-underline-position: under;
+  }
+
+  .form-header {
+    font-weight: 700;
+    color: rgb(90, 90, 90);
+  }

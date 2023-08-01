@@ -1,0 +1,18 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("D:/React/jijiji/my-app/public/banner5.jpg"); /* Replace with the path to your background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
